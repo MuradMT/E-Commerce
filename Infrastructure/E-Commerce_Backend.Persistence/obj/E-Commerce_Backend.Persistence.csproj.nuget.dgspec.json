@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Persistence/E-Commerce_Backend.Persistence.csproj": {}
+  },
+  "projects": {
+    "/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Persistence/E-Commerce_Backend.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Persistence/E-Commerce_Backend.Persistence.csproj",
+        "projectName": "E-Commerce_Backend.Persistence",
+        "projectPath": "/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Persistence/E-Commerce_Backend.Persistence.csproj",
+        "packagesPath": "/home/muradmt/.nuget/packages/",
+        "outputPath": "/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/muradmt/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

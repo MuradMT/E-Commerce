@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "EcIUklCSh13KK0dmf2YbYhGdbVQV4l6k+QEKF3NrpIxPXNdPtqaSTYLD/q079o+xyFIqqI4hOvU8E6PPdri65w==",
+  "success": true,
+  "projectFilePath": "/home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/E-Commerce_Backend.API.csproj",
+  "expectedPackageFiles": [
+    "/home/muradmt/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
