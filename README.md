@@ -6,7 +6,6 @@ Welcome to the E-Commerce Backend repository! This project implements the backen
 
 - [Features](#features)
 - [Tech Stack](#tech-stack)
-- [Architecture](#architecture)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -26,11 +25,6 @@ Welcome to the E-Commerce Backend repository! This project implements the backen
 - **Version Control:** Git
 - **Hosting:** GitHub
 
-## Architecture
-
-The project follows the Onion Architecture, which ensures a separation of concerns and promotes a highly maintainable and testable codebase. 
-
-![Onion Architecture](https://miro.medium.com/max/1400/1*ZdfHJXb1Wa8O9gBOzFHW1A.png)
 
 ### Layers
 
