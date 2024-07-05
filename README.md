@@ -20,6 +20,7 @@ Welcome to the E-Commerce Backend repository! This project implements the backen
 
 - **Language:** C#
 - **Framework:** .NET Core
+- **ORM:** Entity Framework Core
 - **Architecture:** Onion Architecture
 - **Database:** Postgres SQL
 - **Version Control:** Git
