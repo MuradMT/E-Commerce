@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "GIxpPF3/c4ruYotc4VSfC98uOe3G0KAWNKwpu2Byqc9CnhW+rWIYxEeZRds+rLN4X1KxWchO5zmSGZcKTCqI0A==",
+  "dgSpecHash": "qeDgJXKOM90PYtAWmwDT0MasW/a6GgMbIGwIWnksBJYQ6Dk+tleQZ98UQpjT4gUBpV9ygnaoEAnCfi49bIeaWQ==",
   "success": true,
   "projectFilePath": "/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Persistence/E-Commerce_Backend.Persistence.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/muradmt/.nuget/packages/bogus/35.5.1/bogus.35.5.1.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/microsoft.entityframeworkcore/8.0.6/microsoft.entityframeworkcore.8.0.6.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.6/microsoft.entityframeworkcore.abstractions.8.0.6.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.6/microsoft.entityframeworkcore.analyzers.8.0.6.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/microsoft.extensions.caching.memory/8.0.0/microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/microsoft.extensions.logging/8.0.0/microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -7,4 +7,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Bogus" Version="35.5.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\E-Commerce_Backend.Domain\E-Commerce_Backend.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
