@@ -9,7 +9,7 @@ public class DetailConfiguration :BogusImplementation, IEntityTypeConfiguration<
         Detail detail1 = new()
         {
             Id = 1,
-            CreatedDate = DateTime.Now,
+            CreatedDate = DateTime.UtcNow,
             IsDeleted = false,
             CategoryId = 1,
             Title = faker.Lorem.Sentence(1),
@@ -19,7 +19,7 @@ public class DetailConfiguration :BogusImplementation, IEntityTypeConfiguration<
         Detail detail2 = new()
         {
             Id = 2,
-            CreatedDate = DateTime.Now,
+            CreatedDate = DateTime.UtcNow,
             IsDeleted = true,
             CategoryId = 3,
             Title = faker.Lorem.Sentence(1),
@@ -29,7 +29,7 @@ public class DetailConfiguration :BogusImplementation, IEntityTypeConfiguration<
         Detail detail3 = new()
         {
             Id = 3,
-            CreatedDate = DateTime.Now,
+            CreatedDate = DateTime.UtcNow,
             IsDeleted = false,
             CategoryId = 4,
             Title = faker.Lorem.Sentence(1),

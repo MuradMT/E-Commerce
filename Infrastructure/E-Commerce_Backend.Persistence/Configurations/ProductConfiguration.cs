@@ -12,7 +12,7 @@ public class ProductConfiguration : BogusImplementation, IEntityTypeConfiguratio
             Description = faker.Commerce.ProductDescription(),
             Price = faker.Finance.Amount(10, 1000),
             Discount = faker.Random.Decimal(0, 10),
-            CreatedDate = DateTime.Now,
+            CreatedDate = DateTime.UtcNow,
             IsDeleted = false,
             BrandId = 1,
         };
@@ -24,7 +24,7 @@ public class ProductConfiguration : BogusImplementation, IEntityTypeConfiguratio
             Description = faker.Commerce.ProductDescription(),
             Price = faker.Finance.Amount(10, 1000),
             Discount = faker.Random.Decimal(0, 10),
-            CreatedDate = DateTime.Now,
+            CreatedDate = DateTime.UtcNow,
             IsDeleted = false,
             BrandId = 3,
         };

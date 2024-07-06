@@ -11,7 +11,7 @@ public class CategoryConfiguration : IEntityTypeConfiguration<Category>
             Name="Electronics",
             ParentId=0,
             Priority=1,
-            CreatedDate=DateTime.Now,
+            CreatedDate=DateTime.UtcNow,
             IsDeleted=false
         };
 
@@ -20,7 +20,7 @@ public class CategoryConfiguration : IEntityTypeConfiguration<Category>
             Name="Fashion",
             ParentId=0,
             Priority=2,
-            CreatedDate=DateTime.Now,
+            CreatedDate=DateTime.UtcNow,
             IsDeleted=false
         };
 
@@ -29,7 +29,7 @@ public class CategoryConfiguration : IEntityTypeConfiguration<Category>
             Name="Computer",
             ParentId=1,
             Priority=1,
-            CreatedDate=DateTime.Now,
+            CreatedDate=DateTime.UtcNow,
             IsDeleted=false
         };
 
@@ -38,7 +38,7 @@ public class CategoryConfiguration : IEntityTypeConfiguration<Category>
             Name="Woman",
             ParentId=2,
             Priority=1,
-            CreatedDate=DateTime.Now,
+            CreatedDate=DateTime.UtcNow,
             IsDeleted=false
         };
 

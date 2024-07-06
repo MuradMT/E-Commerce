@@ -17,7 +17,7 @@ public class BrandConfiguration : BogusImplementation,IEntityTypeConfiguration<B
 
             Id=1,
             Name=faker.Commerce.Department(),
-            CreatedDate=DateTime.Now,
+            CreatedDate=DateTime.UtcNow,
             IsDeleted=false     
         };
 
@@ -25,7 +25,7 @@ public class BrandConfiguration : BogusImplementation,IEntityTypeConfiguration<B
 
             Id=2,
             Name=faker.Commerce.Department(),
-            CreatedDate=DateTime.Now,
+            CreatedDate=DateTime.UtcNow,
             IsDeleted=false     
         };
         
@@ -34,7 +34,7 @@ public class BrandConfiguration : BogusImplementation,IEntityTypeConfiguration<B
 
             Id=3,
             Name=faker.Commerce.Department(),
-            CreatedDate=DateTime.Now,
+            CreatedDate=DateTime.UtcNow,
             IsDeleted=true     
         };
 
