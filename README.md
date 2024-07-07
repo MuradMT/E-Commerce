@@ -13,6 +13,7 @@ Welcome to the E-Commerce Backend repository! This project implements the backen
 
 ## Features
 
+- Onion Architecture
 - User Authentication and Authorization
 - RESTful API
 - Seperate Entity Configuration with EF Core
