@@ -1,4 +1,5 @@
 ﻿
+
 namespace E_Commerce_Backend.Persistence;
 
 public static class ServiceRegistration
@@ -12,5 +13,7 @@ public static class ServiceRegistration
                services.AddScoped(typeof(IReadRepository<>), typeof(ReadRepository<>));
                
                services.AddScoped(typeof(IWriteRepository<>), typeof(WriteRepository<>));
+
+               services.AddScoped<IUnitOfWork, UnitOfWork>();
      }
 }

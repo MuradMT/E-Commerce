@@ -11,3 +11,5 @@ global using E_Commerce_Backend.Domain.Common;
 global using System.Linq.Expressions;
 global using Microsoft.EntityFrameworkCore.Query;
 global using E_Commerce_Backend.Persistence.Repositories;
+global using E_Commerce_Backend.Application.UnitOfWorks;
+global using E_Commerce_Backend.Persistence.UnitOfWorks;
