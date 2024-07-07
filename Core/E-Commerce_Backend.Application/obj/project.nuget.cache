@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ME53Ngfj3tG0cs7bmvti2bbsPij0xztaxYrXBxsdP3cRkcZOQXn/Z0PPXuPeYIrSeM4ixWSSwk65pSSTNKtvrA==",
+  "dgSpecHash": "pUNH89LzezLVx5L8ms+Lt9rKCwEdCtdvHlM+8cMYdM6Z37g5sVkeCmgylWe9znzv67x2GyRbqfOdESHwr4eHtg==",
   "success": true,
   "projectFilePath": "/home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Application/E-Commerce_Backend.Application.csproj",
   "expectedPackageFiles": [
+    "/home/muradmt/.nuget/packages/mediatr/12.3.0/mediatr.12.3.0.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/home/muradmt/.nuget/packages/microsoft.entityframeworkcore/8.0.6/microsoft.entityframeworkcore.8.0.6.nupkg.sha512",
     "/home/muradmt/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.6/microsoft.entityframeworkcore.abstractions.8.0.6.nupkg.sha512",
     "/home/muradmt/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.6/microsoft.entityframeworkcore.analyzers.8.0.6.nupkg.sha512",

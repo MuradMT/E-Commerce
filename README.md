@@ -20,6 +20,7 @@ Welcome to the E-Commerce Backend repository! This project implements the backen
 - Code First Approach
 - Repository pattern(seperated read and write repositories)
 - Unit of Work pattern
+- CQRS and Mediator(with MediatR library) patterns
 
 ## Tech Stack
 

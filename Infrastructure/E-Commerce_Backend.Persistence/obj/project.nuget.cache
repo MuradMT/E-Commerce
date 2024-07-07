@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "afNUgJdAITir5JQLRNoMPVoUOer0AMEizFaFT/vqzXmiOCsr91Ajej6+6z1qePbXIEim27JLi+1XxS4Ikre+Dw==",
+  "dgSpecHash": "C8jZr5KhBOLAge1KlSgEC3LQQFFPC9eQvYbFu2CCnQx2iirXYUTkabaeaYJELswf1RQNhkTO1HRjhG95O1OM7Q==",
   "success": true,
   "projectFilePath": "/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Persistence/E-Commerce_Backend.Persistence.csproj",
   "expectedPackageFiles": [
     "/home/muradmt/.nuget/packages/bogus/35.5.1/bogus.35.5.1.nupkg.sha512",
     "/home/muradmt/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/mediatr/12.3.0/mediatr.12.3.0.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/home/muradmt/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "/home/muradmt/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.3/microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "/home/muradmt/.nuget/packages/microsoft.codeanalysis.common/4.5.0/microsoft.codeanalysis.common.4.5.0.nupkg.sha512",

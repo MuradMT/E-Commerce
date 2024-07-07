@@ -1,0 +1,16 @@
+/home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Application/bin/Debug/net8.0/E-Commerce_Backend.Application.deps.json
+/home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Application/bin/Debug/net8.0/E-Commerce_Backend.Application.dll
+/home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Application/bin/Debug/net8.0/E-Commerce_Backend.Application.pdb
+/home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Application/bin/Debug/net8.0/E-Commerce_Backend.Domain.dll
+/home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Application/bin/Debug/net8.0/E-Commerce_Backend.Domain.pdb
+/home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Application/obj/Debug/net8.0/E-Commerce_Backend.Application.csproj.AssemblyReference.cache
+/home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Application/obj/Debug/net8.0/E-Commerce_Backend.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Application/obj/Debug/net8.0/E-Commerce_Backend.Application.AssemblyInfoInputs.cache
+/home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Application/obj/Debug/net8.0/E-Commerce_Backend.Application.AssemblyInfo.cs
+/home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Application/obj/Debug/net8.0/E-Commerce_Backend.Application.csproj.CoreCompileInputs.cache
+/home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Application/obj/Debug/net8.0/E-Commerce_Backend.Application.sourcelink.json
+/home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Application/obj/Debug/net8.0/E-Commerce_Backend.Application.csproj.CopyComplete
+/home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Application/obj/Debug/net8.0/E-Commerce_Backend.Application.dll
+/home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Application/obj/Debug/net8.0/refint/E-Commerce_Backend.Application.dll
+/home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Application/obj/Debug/net8.0/E-Commerce_Backend.Application.pdb
+/home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Application/obj/Debug/net8.0/ref/E-Commerce_Backend.Application.dll

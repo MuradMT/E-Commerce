@@ -109,3 +109,7 @@
 /home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/obj/Debug/net8.0/E-Commerce_Backend.API.pdb
 /home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/obj/Debug/net8.0/E-Commerce_Backend.API.genruntimeconfig.cache
 /home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/obj/Debug/net8.0/ref/E-Commerce_Backend.API.dll
+/home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/bin/Debug/net8.0/MediatR.dll
+/home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/bin/Debug/net8.0/MediatR.Contracts.dll
+/home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/bin/Debug/net8.0/E-Commerce_Backend.Application.dll
+/home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/bin/Debug/net8.0/E-Commerce_Backend.Application.pdb
