@@ -2,7 +2,7 @@
 
 namespace E_Commerce_Backend.Persistence.Repositories;
 
-public class ReadRepository<T>(AppDbContext _context) : IReadRepository<T> where T : class, IEntityBase, new()
+public class ReadRepository<T>(DbContext _context) : IReadRepository<T> where T : class, IEntityBase, new()
 {
     DbSet<T> Table { get => _context.Set<T>(); }
 
