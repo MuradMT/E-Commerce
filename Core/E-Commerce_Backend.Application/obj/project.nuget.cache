@@ -1,8 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "PCZRov0kkeF4UaG1ouYIwn+yvHxTYfkaRAReIMphsfidhA8kqIIhIXYCT7x6KP3fuuf3VpGIWrS/OcnCB1MV3A==",
+  "dgSpecHash": "ME53Ngfj3tG0cs7bmvti2bbsPij0xztaxYrXBxsdP3cRkcZOQXn/Z0PPXuPeYIrSeM4ixWSSwk65pSSTNKtvrA==",
   "success": true,
   "projectFilePath": "/home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Application/E-Commerce_Backend.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/muradmt/.nuget/packages/microsoft.entityframeworkcore/8.0.6/microsoft.entityframeworkcore.8.0.6.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.6/microsoft.entityframeworkcore.abstractions.8.0.6.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.6/microsoft.entityframeworkcore.analyzers.8.0.6.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/microsoft.extensions.caching.memory/8.0.0/microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/microsoft.extensions.logging/8.0.0/microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
