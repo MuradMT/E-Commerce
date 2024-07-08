@@ -113,3 +113,7 @@
 /home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/bin/Debug/net8.0/MediatR.Contracts.dll
 /home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/bin/Debug/net8.0/E-Commerce_Backend.Application.dll
 /home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/bin/Debug/net8.0/E-Commerce_Backend.Application.pdb
+/home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/bin/Debug/net8.0/AutoMapper.dll
+/home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/bin/Debug/net8.0/E-Commerce_Backend.Mapper.dll
+/home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/bin/Debug/net8.0/E-Commerce_Backend.Mapper.pdb

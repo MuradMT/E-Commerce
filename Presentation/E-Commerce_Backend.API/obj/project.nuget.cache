@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "hD8TPR1mP/pGGIKcsLjr0XV9quQLK9/ToNGmhJ+2nWj8wlhuOmsZK/0BbL3tJrs2g1v0sFUxaX/S7T3mAT35Jg==",
+  "dgSpecHash": "+QLggCklqNDbzL5WxlqpJ5Q5VPJs5F6TBGDQif/uHsSMmvQjH2cbS30DCglGuc74I/H7/F38zCm/0lo2Snc67A==",
   "success": true,
   "projectFilePath": "/home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/E-Commerce_Backend.API.csproj",
   "expectedPackageFiles": [
+    "/home/muradmt/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/home/muradmt/.nuget/packages/bogus/35.5.1/bogus.35.5.1.nupkg.sha512",
     "/home/muradmt/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/muradmt/.nuget/packages/mediatr/12.3.0/mediatr.12.3.0.nupkg.sha512",
@@ -24,7 +25,7 @@
     "/home/muradmt/.nuget/packages/microsoft.extensions.caching.memory/8.0.0/microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
     "/home/muradmt/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "/home/muradmt/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
-    "/home/muradmt/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.1/microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
     "/home/muradmt/.nuget/packages/microsoft.extensions.dependencymodel/8.0.0/microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",
     "/home/muradmt/.nuget/packages/microsoft.extensions.logging/8.0.0/microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "/home/muradmt/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",

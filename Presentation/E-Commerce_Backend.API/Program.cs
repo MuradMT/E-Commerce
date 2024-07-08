@@ -1,5 +1,6 @@
 using E_Commerce_Backend.Persistence;
 using E_Commerce_Backend.Application;
+using E_Commerce_Backend.Mapper;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -21,6 +22,8 @@ builder.Configuration
 builder.Services.AddPersistence(builder.Configuration);
 
 builder.Services.AddApplication();
+
+builder.Services.AddCustomMapper();
 
 
 var app = builder.Build();
