@@ -12,6 +12,6 @@ public class GetAllProductsQueryResponse
 
     public decimal Discount { get; set; }
 
-    public BrandDto? Brand { get; set; }
+    public BrandDto Brand { get; set; }
 
 }
