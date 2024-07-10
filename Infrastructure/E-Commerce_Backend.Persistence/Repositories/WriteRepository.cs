@@ -21,9 +21,14 @@ public class WriteRepository<T>(DbContext _context): IWriteRepository<T> where T
         return entity;
     }
 
-    public async Task DeleteAsync(T entity)
+
+    public async Task HardDeleteAsync(T entity)
     {
         await Task.Run(() => Table.Remove(entity));
     }
-    
+
+    public async Task HardDeleteRangeAsync(IList<T> entities)
+    {
+        await Task.Run(() => Table.RemoveRange(entities));
+    }
 }

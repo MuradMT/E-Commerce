@@ -22,21 +22,6 @@ namespace E_Commerce_Backend.Persistence.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("CategoryProduct", b =>
-                {
-                    b.Property<int>("CategoriesId")
-                        .HasColumnType("integer");
-
-                    b.Property<int>("ProductsId")
-                        .HasColumnType("integer");
-
-                    b.HasKey("CategoriesId", "ProductsId");
-
-                    b.HasIndex("ProductsId");
-
-                    b.ToTable("CategoryProduct");
-                });
-
             modelBuilder.Entity("E_Commerce_Backend.Domain.Entities.Brand", b =>
                 {
                     b.Property<int>("Id")
@@ -52,7 +37,6 @@ namespace E_Commerce_Backend.Persistence.Migrations
                         .HasColumnType("boolean");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasMaxLength(256)
                         .HasColumnType("character varying(256)");
 
@@ -64,23 +48,23 @@ namespace E_Commerce_Backend.Persistence.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2024, 7, 6, 11, 32, 7, 667, DateTimeKind.Utc).AddTicks(7584),
+                            CreatedDate = new DateTime(2024, 7, 10, 8, 34, 37, 825, DateTimeKind.Utc).AddTicks(7261),
                             IsDeleted = false,
-                            Name = "Home"
+                            Name = "Electronics, Electronics & Books"
                         },
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2024, 7, 6, 11, 32, 7, 667, DateTimeKind.Utc).AddTicks(7634),
+                            CreatedDate = new DateTime(2024, 7, 10, 8, 34, 37, 825, DateTimeKind.Utc).AddTicks(7282),
                             IsDeleted = false,
-                            Name = "Kids & Tools"
+                            Name = "Jewelery & Grocery"
                         },
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2024, 7, 6, 11, 32, 7, 667, DateTimeKind.Utc).AddTicks(7736),
+                            CreatedDate = new DateTime(2024, 7, 10, 8, 34, 37, 825, DateTimeKind.Utc).AddTicks(7306),
                             IsDeleted = true,
-                            Name = "Shoes, Clothing & Shoes"
+                            Name = "Automotive, Clothing & Music"
                         });
                 });
 
@@ -99,7 +83,6 @@ namespace E_Commerce_Backend.Persistence.Migrations
                         .HasColumnType("boolean");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<int>("ParentId")
@@ -116,7 +99,7 @@ namespace E_Commerce_Backend.Persistence.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2024, 7, 6, 11, 32, 7, 668, DateTimeKind.Utc).AddTicks(314),
+                            CreatedDate = new DateTime(2024, 7, 10, 8, 34, 37, 825, DateTimeKind.Utc).AddTicks(9279),
                             IsDeleted = false,
                             Name = "Electronics",
                             ParentId = 0,
@@ -125,7 +108,7 @@ namespace E_Commerce_Backend.Persistence.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2024, 7, 6, 11, 32, 7, 668, DateTimeKind.Utc).AddTicks(317),
+                            CreatedDate = new DateTime(2024, 7, 10, 8, 34, 37, 825, DateTimeKind.Utc).AddTicks(9281),
                             IsDeleted = false,
                             Name = "Fashion",
                             ParentId = 0,
@@ -134,7 +117,7 @@ namespace E_Commerce_Backend.Persistence.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2024, 7, 6, 11, 32, 7, 668, DateTimeKind.Utc).AddTicks(319),
+                            CreatedDate = new DateTime(2024, 7, 10, 8, 34, 37, 825, DateTimeKind.Utc).AddTicks(9283),
                             IsDeleted = false,
                             Name = "Computer",
                             ParentId = 1,
@@ -143,7 +126,7 @@ namespace E_Commerce_Backend.Persistence.Migrations
                         new
                         {
                             Id = 4,
-                            CreatedDate = new DateTime(2024, 7, 6, 11, 32, 7, 668, DateTimeKind.Utc).AddTicks(321),
+                            CreatedDate = new DateTime(2024, 7, 10, 8, 34, 37, 825, DateTimeKind.Utc).AddTicks(9285),
                             IsDeleted = false,
                             Name = "Woman",
                             ParentId = 2,
@@ -166,14 +149,12 @@ namespace E_Commerce_Backend.Persistence.Migrations
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("boolean");
 
                     b.Property<string>("Title")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("Id");
@@ -187,28 +168,28 @@ namespace E_Commerce_Backend.Persistence.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2024, 7, 6, 11, 32, 7, 670, DateTimeKind.Utc).AddTicks(7422),
-                            Description = "Officiis sit ut earum est.",
+                            CreatedDate = new DateTime(2024, 7, 10, 8, 34, 37, 829, DateTimeKind.Utc).AddTicks(360),
+                            Description = "Expedita delectus maiores quisquam dolorem.",
                             IsDeleted = false,
-                            Title = "Consequatur."
+                            Title = "Expedita."
                         },
                         new
                         {
                             Id = 2,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2024, 7, 6, 11, 32, 7, 670, DateTimeKind.Utc).AddTicks(7580),
-                            Description = "Ipsam ea sunt aut vel.",
+                            CreatedDate = new DateTime(2024, 7, 10, 8, 34, 37, 829, DateTimeKind.Utc).AddTicks(524),
+                            Description = "Voluptas neque ut et distinctio.",
                             IsDeleted = true,
-                            Title = "Ea."
+                            Title = "Sapiente."
                         },
                         new
                         {
                             Id = 3,
                             CategoryId = 4,
-                            CreatedDate = new DateTime(2024, 7, 6, 11, 32, 7, 670, DateTimeKind.Utc).AddTicks(7622),
-                            Description = "Eos repellat magnam velit reiciendis.",
+                            CreatedDate = new DateTime(2024, 7, 10, 8, 34, 37, 829, DateTimeKind.Utc).AddTicks(651),
+                            Description = "At voluptas deserunt delectus nemo.",
                             IsDeleted = false,
-                            Title = "Exercitationem."
+                            Title = "Sed."
                         });
                 });
 
@@ -227,7 +208,6 @@ namespace E_Commerce_Backend.Persistence.Migrations
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<decimal>("Discount")
@@ -240,7 +220,6 @@ namespace E_Commerce_Backend.Persistence.Migrations
                         .HasColumnType("numeric");
 
                     b.Property<string>("Title")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("Id");
@@ -254,39 +233,48 @@ namespace E_Commerce_Backend.Persistence.Migrations
                         {
                             Id = 1,
                             BrandId = 1,
-                            CreatedDate = new DateTime(2024, 7, 6, 11, 32, 7, 673, DateTimeKind.Utc).AddTicks(3871),
-                            Description = "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-                            Discount = 4.486716062419570m,
+                            CreatedDate = new DateTime(2024, 7, 10, 8, 34, 37, 833, DateTimeKind.Utc).AddTicks(2936),
+                            Description = "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+                            Discount = 9.180514613019140m,
                             IsDeleted = false,
-                            Price = 287.30m,
-                            Title = "Handmade Soft Bacon"
+                            Price = 150.22m,
+                            Title = "Incredible Concrete Cheese"
                         },
                         new
                         {
                             Id = 2,
                             BrandId = 3,
-                            CreatedDate = new DateTime(2024, 7, 6, 11, 32, 7, 673, DateTimeKind.Utc).AddTicks(3906),
-                            Description = "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-                            Discount = 0.6783316791850510m,
+                            CreatedDate = new DateTime(2024, 7, 10, 8, 34, 37, 833, DateTimeKind.Utc).AddTicks(2974),
+                            Description = "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+                            Discount = 2.614911600358470m,
                             IsDeleted = false,
-                            Price = 312.05m,
-                            Title = "Generic Soft Table"
+                            Price = 792.60m,
+                            Title = "Generic Plastic Cheese"
                         });
                 });
 
-            modelBuilder.Entity("CategoryProduct", b =>
+            modelBuilder.Entity("E_Commerce_Backend.Domain.Entities.ProductCategory", b =>
                 {
-                    b.HasOne("E_Commerce_Backend.Domain.Entities.Category", null)
-                        .WithMany()
-                        .HasForeignKey("CategoriesId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Property<int>("ProductId")
+                        .HasColumnType("integer");
 
-                    b.HasOne("E_Commerce_Backend.Domain.Entities.Product", null)
-                        .WithMany()
-                        .HasForeignKey("ProductsId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("Id")
+                        .HasColumnType("integer");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("boolean");
+
+                    b.HasKey("ProductId", "CategoryId");
+
+                    b.HasIndex("CategoryId");
+
+                    b.ToTable("ProductCategories");
                 });
 
             modelBuilder.Entity("E_Commerce_Backend.Domain.Entities.Detail", b =>
@@ -311,9 +299,35 @@ namespace E_Commerce_Backend.Persistence.Migrations
                     b.Navigation("Brand");
                 });
 
+            modelBuilder.Entity("E_Commerce_Backend.Domain.Entities.ProductCategory", b =>
+                {
+                    b.HasOne("E_Commerce_Backend.Domain.Entities.Category", "Category")
+                        .WithMany("ProductCategories")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("E_Commerce_Backend.Domain.Entities.Product", "Product")
+                        .WithMany("ProductCategories")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
+
+                    b.Navigation("Product");
+                });
+
             modelBuilder.Entity("E_Commerce_Backend.Domain.Entities.Category", b =>
                 {
                     b.Navigation("Details");
+
+                    b.Navigation("ProductCategories");
+                });
+
+            modelBuilder.Entity("E_Commerce_Backend.Domain.Entities.Product", b =>
+                {
+                    b.Navigation("ProductCategories");
                 });
 #pragma warning restore 612, 618
         }

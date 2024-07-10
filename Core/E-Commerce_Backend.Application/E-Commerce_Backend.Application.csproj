@@ -9,10 +9,6 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Features/Products/Commands/" />
-  </ItemGroup>
-
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <RootNamespace>E_Commerce_Backend.Application</RootNamespace>

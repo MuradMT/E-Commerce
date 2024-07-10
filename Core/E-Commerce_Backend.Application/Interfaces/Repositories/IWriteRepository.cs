@@ -16,5 +16,7 @@ public interface IWriteRepository<T> where T : class, IEntityBase, new()
      /// <summary>
      /// We will do hard delete here
      /// </summary>
-     Task DeleteAsync(T entity);
+     Task HardDeleteAsync(T entity);
+
+     Task HardDeleteRangeAsync(IList<T> entities);
 }
