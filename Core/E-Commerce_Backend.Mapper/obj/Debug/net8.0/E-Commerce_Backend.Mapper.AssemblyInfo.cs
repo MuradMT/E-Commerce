@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("E-Commerce_Backend.Mapper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8ae73990c94b4c6975c940a8bd87a9c3d2de801")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a61659eb5192c43c750b03889ee72f2eb4420988")]
 [assembly: System.Reflection.AssemblyProductAttribute("E-Commerce_Backend.Mapper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("E-Commerce_Backend.Mapper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
