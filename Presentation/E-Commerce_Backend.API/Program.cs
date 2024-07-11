@@ -1,6 +1,8 @@
 using E_Commerce_Backend.Persistence;
 using E_Commerce_Backend.Application;
+using E_Commerce_Backend.Application.Exceptions;
 using E_Commerce_Backend.Mapper;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -36,6 +38,7 @@ if (app.Environment.IsDevelopment())
 }
 
 //app.UseHttpsRedirection();
+app.ConfiureExceptionHandlingMiddleware();
 
 app.UseAuthorization();
 
