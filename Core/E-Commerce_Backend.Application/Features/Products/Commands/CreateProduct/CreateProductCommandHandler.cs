@@ -21,7 +21,6 @@ public class CreateProductCommandHandler(IUnitOfWork _unitOfWork): IRequestHandl
                     CategoryId=categoryId
                   }
                );
-
                await _unitOfWork.SaveAsync();
             }
            

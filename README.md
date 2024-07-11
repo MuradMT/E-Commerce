@@ -23,6 +23,7 @@ Welcome to the E-Commerce Backend repository! This project implements the backen
 - Unit of Work pattern
 - CQRS and Mediator(with MediatR library) patterns
 - Custom mapping library(with the help of AutoMapper)
+- Global Exception handling(via custom middleware)
 
 ## Tech Stack
 
