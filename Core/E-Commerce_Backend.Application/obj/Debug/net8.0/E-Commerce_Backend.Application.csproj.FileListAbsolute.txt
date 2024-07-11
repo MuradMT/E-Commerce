@@ -9,8 +9,8 @@
 /home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Application/obj/Debug/net8.0/E-Commerce_Backend.Application.AssemblyInfo.cs
 /home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Application/obj/Debug/net8.0/E-Commerce_Backend.Application.csproj.CoreCompileInputs.cache
 /home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Application/obj/Debug/net8.0/E-Commerce_Backend.Application.sourcelink.json
-/home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Application/obj/Debug/net8.0/E-Commerce_Backend.Application.csproj.CopyComplete
 /home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Application/obj/Debug/net8.0/E-Commerce_Backend.Application.dll
 /home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Application/obj/Debug/net8.0/refint/E-Commerce_Backend.Application.dll
 /home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Application/obj/Debug/net8.0/E-Commerce_Backend.Application.pdb
 /home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Application/obj/Debug/net8.0/ref/E-Commerce_Backend.Application.dll
+/home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Application/obj/Debug/net8.0/E-Commer.D691CE92.Up2Date

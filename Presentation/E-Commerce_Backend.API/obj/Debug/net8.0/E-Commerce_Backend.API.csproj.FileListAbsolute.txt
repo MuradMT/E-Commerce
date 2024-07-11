@@ -103,7 +103,6 @@
 /home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.E-Commerce_Backend.API.props
 /home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/obj/Debug/net8.0/staticwebassets.pack.json
 /home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/obj/Debug/net8.0/scopedcss/bundle/E-Commerce_Backend.API.styles.css
-/home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/obj/Debug/net8.0/E-Commerce_Backend.API.csproj.CopyComplete
 /home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/obj/Debug/net8.0/E-Commerce_Backend.API.dll
 /home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/obj/Debug/net8.0/refint/E-Commerce_Backend.API.dll
 /home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/obj/Debug/net8.0/E-Commerce_Backend.API.pdb
@@ -117,3 +116,7 @@
 /home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
 /home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/bin/Debug/net8.0/E-Commerce_Backend.Mapper.dll
 /home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/bin/Debug/net8.0/E-Commerce_Backend.Mapper.pdb
+/home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/bin/Debug/net8.0/Newtonsoft.Json.dll
+/home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/bin/Debug/net8.0/SendGrid.dll
+/home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/bin/Debug/net8.0/StarkbankEcdsa.dll
+/home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/obj/Debug/net8.0/E-Commer.176C5831.Up2Date
