@@ -34,7 +34,7 @@ Welcome to the E-Commerce Backend repository! This project implements the backen
 - **Database:** Postgres SQL
 - **Version Control:** Git
 - **Hosting:** GitHub
-- **IDE:**Rider
+- **IDE:** Rider
 
 
 ### Layers
