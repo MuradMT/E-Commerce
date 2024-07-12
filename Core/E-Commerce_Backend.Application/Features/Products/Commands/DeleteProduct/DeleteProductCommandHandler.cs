@@ -4,9 +4,9 @@ using MediatR;
 
 namespace E_Commerce_Backend.Application.Features.Products.Commands.DeleteProduct;
 
-public class DeleteProductCommandHandler(IUnitOfWork _unitOfWork): IRequestHandler<DeleteProductCommandRequest>
+public class DeleteProductCommandHandler(IUnitOfWork _unitOfWork): IRequestHandler<DeleteProductCommandRequest,Unit>
 {
-    public async Task Handle(DeleteProductCommandRequest request, CancellationToken cancellationToken)
+    public async Task<Unit> Handle(DeleteProductCommandRequest request, CancellationToken cancellationToken)
     {
         var product=await _unitOfWork.GetReadRepository<Product>().GetAsync(x=>x.Id==request.Id && !x.IsDeleted);
 
@@ -14,5 +14,6 @@ public class DeleteProductCommandHandler(IUnitOfWork _unitOfWork): IRequestHandl
 
         await _unitOfWork.GetWriteRepository<Product>().UpdateAsync(product);
         await _unitOfWork.SaveAsync();
+        return Unit.Value;
     }
 }

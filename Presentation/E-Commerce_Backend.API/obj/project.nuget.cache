@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Utg9X2Cn9U/rNaYnhSXOLMM7weBMWkrUfopE/BZrGWreC2oQTaK6gr6JTyEX/4PrDNu+qh84dLT/Cfu6X6vxDg==",
+  "dgSpecHash": "zVkcRsZHJ3e1fc3L//mRHCATxghz4PiAh/hRZnAq1U7NNXP3T6aHIY32iTozL9q2RcV64Hb6wpqz7S/VFkZY0A==",
   "success": true,
   "projectFilePath": "/home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/E-Commerce_Backend.API.csproj",
   "expectedPackageFiles": [
     "/home/muradmt/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/home/muradmt/.nuget/packages/bogus/35.5.1/bogus.35.5.1.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/fluentvalidation/11.9.2/fluentvalidation.11.9.2.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.9.2/fluentvalidation.dependencyinjectionextensions.11.9.2.nupkg.sha512",
     "/home/muradmt/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/muradmt/.nuget/packages/mediatr/12.3.0/mediatr.12.3.0.nupkg.sha512",
     "/home/muradmt/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",

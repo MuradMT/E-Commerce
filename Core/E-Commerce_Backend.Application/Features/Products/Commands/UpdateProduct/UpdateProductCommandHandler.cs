@@ -5,9 +5,9 @@ using MediatR;
 
 namespace E_Commerce_Backend.Application.Features.Products.Commands.UpdateProduct;
 
-public class UpdateProductCommandHandler(IUnitOfWork _unitOfWork,IMapper _mapper): IRequestHandler<UpdateProductCommandRequest>
+public class UpdateProductCommandHandler(IUnitOfWork _unitOfWork,IMapper _mapper): IRequestHandler<UpdateProductCommandRequest,Unit>
 {
-    public async Task Handle(UpdateProductCommandRequest request, CancellationToken cancellationToken)
+    public async Task<Unit> Handle(UpdateProductCommandRequest request, CancellationToken cancellationToken)
     {
         var product=await _unitOfWork.GetReadRepository<Product>().GetAsync(x=>x.Id==request.Id && !x.IsDeleted);
         var result=_mapper.Map<Product,UpdateProductCommandRequest>(request);
@@ -29,5 +29,6 @@ public class UpdateProductCommandHandler(IUnitOfWork _unitOfWork,IMapper _mapper
         await _unitOfWork.GetWriteRepository<Product>().UpdateAsync(result);
       
         await _unitOfWork.SaveAsync();
+        return Unit.Value;
     }
 }

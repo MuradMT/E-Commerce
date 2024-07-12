@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "UnOsyYiMCUGK5Z/LaXp6CRC1/G7D78+iTs92i9vFCScFH5HXroz4v1ZI44fnuA3E/yDISvhkUlqCbtY73IBEsw==",
+  "dgSpecHash": "fXwAvizYKmm5YFbuBkE8dMoMnRzhAg5g/3equgLBCetP1ME4KI6NtmuBraquRRgdAG4XZ3GPwzSCxkdIU9YMDA==",
   "success": true,
   "projectFilePath": "/home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Application/E-Commerce_Backend.Application.csproj",
   "expectedPackageFiles": [
+    "/home/muradmt/.nuget/packages/fluentvalidation/11.9.2/fluentvalidation.11.9.2.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.9.2/fluentvalidation.dependencyinjectionextensions.11.9.2.nupkg.sha512",
     "/home/muradmt/.nuget/packages/mediatr/12.3.0/mediatr.12.3.0.nupkg.sha512",
     "/home/muradmt/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/home/muradmt/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.2.0/microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

@@ -25,6 +25,15 @@ public class ExceptionMiddleware : IMiddleware
         context.Response.ContentType = "application/json";
         context.Response.StatusCode = statusCode;
 
+        if (exception.GetType() == typeof(FluentValidation.ValidationException))
+        {
+            await context.Response.WriteAsync(new ExceptionModel()
+            {
+                Errors = ((FluentValidation.ValidationException)exception).Errors.Select(x=>x.ErrorMessage),
+                StatusCode = StatusCodes.Status400BadRequest
+            }.ToString());
+        }
+
         List<string> errors = new()
         {
             $"Error Message: {exception.Message}",
