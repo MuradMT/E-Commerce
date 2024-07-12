@@ -24,6 +24,8 @@ Welcome to the E-Commerce Backend repository! This project implements the backen
 - CQRS and Mediator(with MediatR library) patterns
 - Custom mapping library(with the help of AutoMapper)
 - Global Exception handling(via custom middleware)
+- Validation with Fluent Validation
+- Pipeline Behaviors
 
 ## Tech Stack
 
