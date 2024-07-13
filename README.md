@@ -26,6 +26,7 @@ Welcome to the E-Commerce Backend repository! This project implements the backen
 - Global Exception handling(via custom middleware)
 - Validation with Fluent Validation
 - Pipeline Behaviors
+- Seperated business logic with Base Rules
 
 ## Tech Stack
 
