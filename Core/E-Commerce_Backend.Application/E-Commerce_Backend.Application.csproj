@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <Compile Remove="Exceptions\E.cs" />
+    <Compile Remove="Bases\cl.cs" />
   </ItemGroup>
 
   <PropertyGroup>
