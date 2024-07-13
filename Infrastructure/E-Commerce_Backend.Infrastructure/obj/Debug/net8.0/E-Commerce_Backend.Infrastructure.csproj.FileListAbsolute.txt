@@ -1,0 +1,12 @@
+/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Infrastructure/bin/Debug/net8.0/E-Commerce_Backend.Infrastructure.deps.json
+/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Infrastructure/bin/Debug/net8.0/E-Commerce_Backend.Infrastructure.dll
+/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Infrastructure/bin/Debug/net8.0/E-Commerce_Backend.Infrastructure.pdb
+/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Infrastructure/obj/Debug/net8.0/E-Commerce_Backend.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Infrastructure/obj/Debug/net8.0/E-Commerce_Backend.Infrastructure.AssemblyInfoInputs.cache
+/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Infrastructure/obj/Debug/net8.0/E-Commerce_Backend.Infrastructure.AssemblyInfo.cs
+/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Infrastructure/obj/Debug/net8.0/E-Commerce_Backend.Infrastructure.csproj.CoreCompileInputs.cache
+/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Infrastructure/obj/Debug/net8.0/E-Commerce_Backend.Infrastructure.sourcelink.json
+/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Infrastructure/obj/Debug/net8.0/E-Commerce_Backend.Infrastructure.dll
+/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Infrastructure/obj/Debug/net8.0/refint/E-Commerce_Backend.Infrastructure.dll
+/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Infrastructure/obj/Debug/net8.0/E-Commerce_Backend.Infrastructure.pdb
+/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Infrastructure/obj/Debug/net8.0/ref/E-Commerce_Backend.Infrastructure.dll

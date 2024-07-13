@@ -1,10 +1,12 @@
 ﻿
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+
 namespace E_Commerce_Backend.Persistence.Contexts;
 
-public class AppDbContext:DbContext
+public class AppDbContext:IdentityDbContext<User,Role,Guid>
 {
     /// <summary>
-    /// I have created migrations in terminal with this commands:
+    /// I have created migrations in terminal with these commands:
     /// dotnet ef migrations add InitialCreate
     ///  --project Infrastructure/E-Commerce_Backend.Persistence  
     /// --startup-project Presentation/E-Commerce_Backend.API
@@ -12,7 +14,7 @@ public class AppDbContext:DbContext
     
     /// <summary>
     /// Applied commands to root folder of sln file
-    /// I have updated database in terminal with this commands:
+    /// I have updated database in terminal with these commands:
     /// dotnet ef database update 
     ///  --project Infrastructure/E-Commerce_Backend.Persistence  
     /// --startup-project Presentation/E-Commerce_Backend.API

@@ -10,3 +10,4 @@
 /home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Domain/obj/Debug/net8.0/refint/E-Commerce_Backend.Domain.dll
 /home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Domain/obj/Debug/net8.0/E-Commerce_Backend.Domain.pdb
 /home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Domain/obj/Debug/net8.0/ref/E-Commerce_Backend.Domain.dll
+/home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Domain/obj/Debug/net8.0/E-Commerce_Backend.Domain.csproj.AssemblyReference.cache
