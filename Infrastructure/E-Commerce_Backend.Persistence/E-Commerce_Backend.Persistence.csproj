@@ -9,12 +9,11 @@
 
   <ItemGroup>
     <PackageReference Include="Bogus" Version="35.5.1" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0-preview.6.24327.4" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.0-preview.6.24327.4">
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.7">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.0-preview.3" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.4" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,15 +22,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Remove="Migrations\**" />
+    <Compile Include="Migrations\20240714111128_Initial.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Remove="Migrations\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Remove="Migrations\**" />
+    <Content Include="Migrations\.idea\.idea.Migrations.dir\.idea\.gitignore" />
+    <Content Include="Migrations\.idea\.idea.Migrations.dir\.idea\indexLayout.xml" />
+    <Content Include="Migrations\.idea\.idea.Migrations.dir\.idea\material_theme_project_new.xml" />
+    <Content Include="Migrations\.idea\.idea.Migrations.dir\.idea\projectSettingsUpdater.xml" />
+    <Content Include="Migrations\.idea\.idea.Migrations.dir\.idea\vcs.xml" />
+    <Content Include="Migrations\.idea\.idea.Migrations.dir\.idea\workspace.xml" />
   </ItemGroup>
 
 </Project>
