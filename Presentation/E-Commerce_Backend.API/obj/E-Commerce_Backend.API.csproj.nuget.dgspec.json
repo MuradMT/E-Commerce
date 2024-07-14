@@ -61,6 +61,10 @@
             "SendGrid": {
               "target": "Package",
               "version": "[9.29.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.0.0-preview1, )"
             }
           },
           "imports": [
@@ -209,6 +213,73 @@
         }
       }
     },
+    "/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Infrastructure/E-Commerce_Backend.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Infrastructure/E-Commerce_Backend.Infrastructure.csproj",
+        "projectName": "E-Commerce_Backend.Infrastructure",
+        "projectPath": "/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Infrastructure/E-Commerce_Backend.Infrastructure.csproj",
+        "packagesPath": "/home/muradmt/.nuget/packages/",
+        "outputPath": "/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/muradmt/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Application/E-Commerce_Backend.Application.csproj": {
+                "projectPath": "/home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Application/E-Commerce_Backend.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.0-preview.6.24327.7, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[9.0.0-preview.6.24327.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/248/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Persistence/E-Commerce_Backend.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -309,6 +380,9 @@
             "projectReferences": {
               "/home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Mapper/E-Commerce_Backend.Mapper.csproj": {
                 "projectPath": "/home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Mapper/E-Commerce_Backend.Mapper.csproj"
+              },
+              "/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Infrastructure/E-Commerce_Backend.Infrastructure.csproj": {
+                "projectPath": "/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Infrastructure/E-Commerce_Backend.Infrastructure.csproj"
               },
               "/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Persistence/E-Commerce_Backend.Persistence.csproj": {
                 "projectPath": "/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Persistence/E-Commerce_Backend.Persistence.csproj"

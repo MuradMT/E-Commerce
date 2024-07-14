@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nlfmHCJzZYX0xdI10fm0I43UXGQLiQmDbvLdoxXuKJtLaIoXS+iRZCLEAUxXO+EgNYxmmSb0Sqs2Q2waplbI0Q==",
+  "dgSpecHash": "qByg7NXPsYQ3oD+cmy1YcYu+Nq4EVKiE05frnsV0z5x8U3Fw6tSfnxWwf6ql8ESBAVPMMlY9tvtrPVbCTaL7+A==",
   "success": true,
   "projectFilePath": "/home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Mapper/E-Commerce_Backend.Mapper.csproj",
   "expectedPackageFiles": [
@@ -29,9 +29,14 @@
     "/home/muradmt/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "/home/muradmt/.nuget/packages/microsoft.extensions.options/8.0.2/microsoft.extensions.options.8.0.2.nupkg.sha512",
     "/home/muradmt/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/microsoft.identitymodel.abstractions/8.0.0-preview1/microsoft.identitymodel.abstractions.8.0.0-preview1.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.0.0-preview1/microsoft.identitymodel.jsonwebtokens.8.0.0-preview1.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/microsoft.identitymodel.logging/8.0.0-preview1/microsoft.identitymodel.logging.8.0.0-preview1.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/microsoft.identitymodel.tokens/8.0.0-preview1/microsoft.identitymodel.tokens.8.0.0-preview1.nupkg.sha512",
     "/home/muradmt/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/home/muradmt/.nuget/packages/sendgrid/9.29.3/sendgrid.9.29.3.nupkg.sha512",
     "/home/muradmt/.nuget/packages/starkbank-ecdsa/1.3.3/starkbank-ecdsa.1.3.3.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/system.identitymodel.tokens.jwt/8.0.0-preview1/system.identitymodel.tokens.jwt.8.0.0-preview1.nupkg.sha512",
     "/home/muradmt/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512"
   ],
   "logs": []

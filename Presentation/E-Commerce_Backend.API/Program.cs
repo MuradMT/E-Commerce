@@ -1,6 +1,7 @@
 using E_Commerce_Backend.Persistence;
 using E_Commerce_Backend.Application;
 using E_Commerce_Backend.Application.Exceptions;
+using E_Commerce_Backend.Infrastructure;
 using E_Commerce_Backend.Mapper;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,6 +25,8 @@ builder.Configuration
 builder.Services.AddPersistence(builder.Configuration);
 
 builder.Services.AddApplication();
+
+builder.Services.AddInfrastructure(builder.Configuration);
 
 builder.Services.AddCustomMapper();
 
