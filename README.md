@@ -15,8 +15,9 @@ Welcome to the E-Commerce Backend repository! This project implements the backen
 
 - Onion Architecture
 - User Authentication and Authorization
+- JWT,Access and Refresh token
 - RESTful API
-- Seperate Entity Configuration with EF Core
+- Seperated Entity Configuration with EF Core
 - Data generation with Bogus library
 - Code First Approach
 - Repository pattern(seperated read and write repositories)
