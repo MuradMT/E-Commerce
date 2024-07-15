@@ -3,6 +3,7 @@ using E_Commerce_Backend.Application;
 using E_Commerce_Backend.Application.Exceptions;
 using E_Commerce_Backend.Infrastructure;
 using E_Commerce_Backend.Mapper;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,6 +30,40 @@ builder.Services.AddApplication();
 builder.Services.AddInfrastructure(builder.Configuration);
 
 builder.Services.AddCustomMapper();
+
+builder.Services.AddSwaggerGen(cfg =>
+{
+    cfg.SwaggerDoc("v1",new OpenApiInfo()
+    {
+        Title = "E-Commerce",
+        Version = "v1",
+        Description = "E-Commerce swagger client."
+    });
+    cfg.AddSecurityDefinition("Bearer",new OpenApiSecurityScheme()
+    {
+        Name = "Authorization",
+        Type = SecuritySchemeType.ApiKey,
+        Scheme = "Bearer",
+        BearerFormat = "JWT",
+        In = ParameterLocation.Header,
+        Description = "After writing 'Bearer',you can enter your token." +
+                      "For instance: Bearer:{some random token}"
+    });
+    cfg.AddSecurityRequirement(new OpenApiSecurityRequirement()
+    {
+        {
+            new OpenApiSecurityScheme()
+            {
+                Reference = new OpenApiReference()
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            Array.Empty<string>()
+        }
+    });
+});
 
 
 var app = builder.Build();

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7VpXPQ6iyPWaPIdHn2PsaMLDspETqKZOchouqqLZY8QRABlwURD00qq1LTG/qf213taCBZsn+ZhwXiiRMi8UDw==",
+  "dgSpecHash": "+EtqmL7QowO4g4fSRD6BAAU7OlXENaRZ79jJdPwT1rgJnLTKeBBfrgMwMMhpr2tzjeEbObelh0woZJ3dX/FpKw==",
   "success": true,
   "projectFilePath": "/home/muradmt/Public/E-Commerce_Backend/Presentation/E-Commerce_Backend.API/E-Commerce_Backend.API.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "/home/muradmt/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/muradmt/.nuget/packages/mediatr/12.3.0/mediatr.12.3.0.nupkg.sha512",
     "/home/muradmt/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/8.0.7/microsoft.aspnetcore.authentication.jwtbearer.8.0.7.nupkg.sha512",
     "/home/muradmt/.nuget/packages/microsoft.aspnetcore.cryptography.internal/8.0.4/microsoft.aspnetcore.cryptography.internal.8.0.4.nupkg.sha512",
     "/home/muradmt/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/8.0.4/microsoft.aspnetcore.cryptography.keyderivation.8.0.4.nupkg.sha512",
     "/home/muradmt/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.1.1/microsoft.aspnetcore.http.abstractions.2.1.1.nupkg.sha512",
@@ -46,6 +47,8 @@
     "/home/muradmt/.nuget/packages/microsoft.identitymodel.abstractions/8.0.0-preview1/microsoft.identitymodel.abstractions.8.0.0-preview1.nupkg.sha512",
     "/home/muradmt/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.0.0-preview1/microsoft.identitymodel.jsonwebtokens.8.0.0-preview1.nupkg.sha512",
     "/home/muradmt/.nuget/packages/microsoft.identitymodel.logging/8.0.0-preview1/microsoft.identitymodel.logging.8.0.0-preview1.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/microsoft.identitymodel.protocols/7.1.2/microsoft.identitymodel.protocols.7.1.2.nupkg.sha512",
+    "/home/muradmt/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/7.1.2/microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
     "/home/muradmt/.nuget/packages/microsoft.identitymodel.tokens/8.0.0-preview1/microsoft.identitymodel.tokens.8.0.0-preview1.nupkg.sha512",
     "/home/muradmt/.nuget/packages/microsoft.openapi/1.6.14/microsoft.openapi.1.6.14.nupkg.sha512",
     "/home/muradmt/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
