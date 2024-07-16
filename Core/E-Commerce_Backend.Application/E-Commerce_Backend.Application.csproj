@@ -18,6 +18,10 @@
     <Compile Remove="Bases\cl.cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Features\Auth\Queries\" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <RootNamespace>E_Commerce_Backend.Application</RootNamespace>

@@ -31,6 +31,9 @@ builder.Services.AddInfrastructure(builder.Configuration);
 
 builder.Services.AddCustomMapper();
 
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
 builder.Services.AddSwaggerGen(cfg =>
 {
     cfg.SwaggerDoc("v1",new OpenApiInfo()

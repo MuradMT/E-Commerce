@@ -11,3 +11,8 @@
 /home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Infrastructure/obj/Debug/net8.0/E-Commerce_Backend.Infrastructure.pdb
 /home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Infrastructure/obj/Debug/net8.0/ref/E-Commerce_Backend.Infrastructure.dll
 /home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Infrastructure/obj/Debug/net8.0/E-Commerce_Backend.Infrastructure.csproj.AssemblyReference.cache
+/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Infrastructure/bin/Debug/net8.0/E-Commerce_Backend.Application.dll
+/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Infrastructure/bin/Debug/net8.0/E-Commerce_Backend.Domain.dll
+/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Infrastructure/bin/Debug/net8.0/E-Commerce_Backend.Application.pdb
+/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Infrastructure/bin/Debug/net8.0/E-Commerce_Backend.Domain.pdb
+/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Infrastructure/obj/Debug/net8.0/E-Commer.B9ED034D.Up2Date
