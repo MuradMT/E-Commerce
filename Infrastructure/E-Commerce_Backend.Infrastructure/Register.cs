@@ -1,5 +1,6 @@
 using System.Text;
 using E_Commerce_Backend.Application.Interfaces.Tokens;
+using E_Commerce_Backend.Infrastructure.Tokens;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -14,7 +15,7 @@ public static class Register
     {
         services.Configure<TokenSettings>(configuration.GetSection("JWT"));
 
-        services.AddTransient<ITokenService, ITokenService>();
+        services.AddTransient<ITokenService, TokenService>();
 
         services.AddAuthentication(opt =>
         {

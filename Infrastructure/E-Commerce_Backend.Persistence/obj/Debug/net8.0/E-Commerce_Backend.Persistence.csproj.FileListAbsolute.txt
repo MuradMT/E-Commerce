@@ -1,5 +1,4 @@
 /home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Persistence/bin/Debug/net8.0/E-Commerce_Backend.Persistence.deps.json
-/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Persistence/bin/Debug/net8.0/E-Commerce_Backend.Persistence.runtimeconfig.json
 /home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Persistence/bin/Debug/net8.0/E-Commerce_Backend.Persistence.dll
 /home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Persistence/bin/Debug/net8.0/E-Commerce_Backend.Persistence.pdb
 /home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Persistence/bin/Debug/net8.0/E-Commerce_Backend.Domain.dll
@@ -13,8 +12,9 @@
 /home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Persistence/obj/Debug/net8.0/E-Commerce_Backend.Persistence.dll
 /home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Persistence/obj/Debug/net8.0/refint/E-Commerce_Backend.Persistence.dll
 /home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Persistence/obj/Debug/net8.0/E-Commerce_Backend.Persistence.pdb
-/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Persistence/obj/Debug/net8.0/E-Commerce_Backend.Persistence.genruntimeconfig.cache
 /home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Persistence/obj/Debug/net8.0/ref/E-Commerce_Backend.Persistence.dll
 /home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Persistence/bin/Debug/net8.0/E-Commerce_Backend.Application.dll
 /home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Persistence/bin/Debug/net8.0/E-Commerce_Backend.Application.pdb
 /home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Persistence/obj/Debug/net8.0/E-Commer.12EA34A7.Up2Date
+/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Persistence/bin/Debug/net8.0/E-Commerce_Backend.Persistence.runtimeconfig.json
+/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Persistence/obj/Debug/net8.0/E-Commerce_Backend.Persistence.genruntimeconfig.cache

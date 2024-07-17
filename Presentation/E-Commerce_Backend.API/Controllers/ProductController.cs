@@ -3,6 +3,7 @@ using E_Commerce_Backend.Application.Features.Products.Commands.DeleteProduct;
 using E_Commerce_Backend.Application.Features.Products.Commands.UpdateProduct;
 using E_Commerce_Backend.Application.Features.Products.Queries.GetAllProducts;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace E_Commerce_Backend.API;
@@ -13,6 +14,7 @@ namespace E_Commerce_Backend.API;
 public class ProductController(IMediator _mediatr):ControllerBase
 {
       [HttpGet]
+      [Authorize]
       public async Task<IActionResult> GetAllProducts(){
             var result=await _mediatr.Send(new GetAllProductsQueryRequest());
             return Ok(result);
