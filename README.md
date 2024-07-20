@@ -28,6 +28,7 @@ Welcome to the E-Commerce Backend repository! This project implements the backen
 - Validation with Fluent Validation
 - Pipeline Behaviors
 - Seperated business logic with Base Rules
+- Caching with Redis
 
 ## Tech Stack
 
