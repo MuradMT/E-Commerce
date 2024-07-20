@@ -1,4 +1,4 @@
-namespace E_Commerce_Backend.Infrastructure;
+namespace E_Commerce_Backend.Infrastructure.Tokens;
 
 public class TokenSettings
 {

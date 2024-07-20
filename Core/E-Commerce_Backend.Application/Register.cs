@@ -24,6 +24,7 @@ public static class Register
         services.AddValidatorsFromAssembly(assembly);
 
         services.AddTransient(typeof(IPipelineBehavior<,>), typeof(FluentValidationBehaviour<,>));
+        services.AddTransient(typeof(IPipelineBehavior<,>), typeof(RedisCacheBehavior<,>));
 
         //Code below helps us to change the custom language of validation
         //ValidatorOptions.Global.LanguageManager.Culture = new CultureInfo("tr");
