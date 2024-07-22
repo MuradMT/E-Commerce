@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "e4d2bSIkd6A3/dqfJ99ZUGRRx9wMlzY2pyqYbOQrEzYbTo6MSPssJ9UdxEpPNP+scDFgRaX8vQdg07Gpw7G0cQ==",
+  "dgSpecHash": "rA6vkWZ0glbkCWfSL19FcNd/gDLtl1kKlOWs+9nXpRqja5HP3XEQZxsn4f2RNwhXmL3A3npcHI+5ZLsutltbYQ==",
   "success": true,
   "projectFilePath": "/home/muradmt/Public/E-Commerce_Backend/Core/E-Commerce_Backend.Application/E-Commerce_Backend.Application.csproj",
   "expectedPackageFiles": [
+    "/home/muradmt/.nuget/packages/bogus/35.6.0/bogus.35.6.0.nupkg.sha512",
     "/home/muradmt/.nuget/packages/fluentvalidation/11.9.2/fluentvalidation.11.9.2.nupkg.sha512",
     "/home/muradmt/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.9.2/fluentvalidation.dependencyinjectionextensions.11.9.2.nupkg.sha512",
     "/home/muradmt/.nuget/packages/mediatr/12.3.0/mediatr.12.3.0.nupkg.sha512",

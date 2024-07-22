@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "IWldEHCJLKNFsFs1E4+51H5WpM4X7Inqi144jVGcPbXrlB8jFNVyQDzMJyc99UEhUGClp0H2KbFYISyE4GzH3g==",
-  "success": true,
+  "dgSpecHash": "LQ31yd3ftzFrCBFIX+b0VQTP3GgyO2hldOY3i0RBMAVU8/+WuQYI4NpaPeu02CHrZHiZVhejhcfDrkpcpgxBoQ==",
+  "success": false,
   "projectFilePath": "/home/muradmt/Public/E-Commerce_Backend/Infrastructure/E-Commerce_Backend.Persistence/E-Commerce_Backend.Persistence.csproj",
   "expectedPackageFiles": [
     "/home/muradmt/.nuget/packages/bogus/35.5.1/bogus.35.5.1.nupkg.sha512",
@@ -65,5 +65,15 @@
     "/home/muradmt/.nuget/packages/system.text.json/8.0.0/system.text.json.8.0.0.nupkg.sha512",
     "/home/muradmt/.nuget/packages/system.threading.channels/6.0.0/system.threading.channels.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Warning As Error: Detected package downgrade: Bogus from 35.6.0 to 35.5.1. Reference the package directly from the project to select a different version. \n E-Commerce_Backend.Persistence -> E-Commerce_Backend.Application -> Bogus (>= 35.6.0) \n E-Commerce_Backend.Persistence -> Bogus (>= 35.5.1)",
+      "libraryId": "Bogus",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
